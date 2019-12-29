@@ -63,8 +63,8 @@ public class MainlineModuleVersionPreferenceController extends BasePreferenceCon
 
     @Override
     public int getAvailabilityStatus() {
-        return !TextUtils.isEmpty(mModuleVersion) &&
-            parseDateFromVersionName(mModuleVersion).isPresent() ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return /*!TextUtils.isEmpty(mModuleVersion) &&
+            parseDateFromVersionName(mModuleVersion).isPresent() ? AVAILABLE : */UNSUPPORTED_ON_DEVICE;
     }
 
     private void initModules() {
