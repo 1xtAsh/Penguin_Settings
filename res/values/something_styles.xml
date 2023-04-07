@@ -59,4 +59,12 @@
         <item name="android:layout_marginBottom">4dp</item>
         <item name="android:background">@drawable/something_preference_background_bottom</item>
     </style>
+
+    <style name="somethingDashboardPreferenceSingleAccent">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/something_preference_background_single_accent</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
 </resources>
