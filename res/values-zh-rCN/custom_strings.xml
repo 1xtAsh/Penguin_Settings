@@ -273,6 +273,12 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 分钟</string>
     <string name="app_notification_sound_timeout_value_15_minutes">15 分钟</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 分钟</string>
+
+    <!-- QS Battery estimates -->
+    <string name="qs_show_battery_estimate_title">电池估算值</string>
+    <string name="qs_show_battery_estimate_summary_on">在 QS 中显示电池估算值</string>
+    <string name="qs_show_battery_estimate_summary_off">在 QS 中隐藏电池估算值</string>
+
     <!-- FastCharge feature -->
     <string name="fast_charging_title">快速充电</string>
     <string name="fast_charging_summary">禁用以减少设备在充电时产生的热量或延长电池的使用寿命</string>
