@@ -261,5 +261,8 @@
 
     <!-- Battery light -->
     <string name="battery_light_title">Battery light</string>
+    
+    <!-- Placeholder -->
+    <string name="sim_placeholder_title" translatable="false">SIM</string>
 
 </resources>
