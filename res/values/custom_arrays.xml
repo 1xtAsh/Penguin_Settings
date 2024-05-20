@@ -42,7 +42,7 @@
         <item>900000</item>
         <item>1800000</item>
     </string-array>
-    
+
     <!-- Bluetooth settings.  The delay in inactivity before bluetooth is turned off. These are shown in a list dialog. -->
     <string-array name="bluetooth_timeout_entries">
         <item>@string/timeout_summary_never</item>
@@ -129,5 +129,13 @@
         <item>14400000</item>
         <!-- Do not translate. -->
         <item>28800000</item>
+    </string-array>
+
+    <!-- Apps list to hide from Hide developer status setting -->
+    <string-array name="hide_developer_status_hidden_apps" translatable="false">
+        <item>android</item>
+        <item>com.android.settings</item>
+        <item>com.android.systemui</item>
+        <item>com.android.shell</item>
     </string-array>
 </resources>
