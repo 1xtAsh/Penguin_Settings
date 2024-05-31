@@ -107,4 +107,22 @@
 
     </PreferenceCategory>
 
+    <!-- Fingerprint Authentication Vibration options -->
+    <PreferenceCategory
+        android:key="fingerprint_vib_options"
+        android:title="@string/fingerprint_vibration_category" >
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="fp_success_vibrate"
+            android:title="@string/fp_success_vibrate_title"
+            android:summary="@string/fp_success_vibrate_summary"
+            android:defaultValue="true" />
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="fp_error_vibrate"
+            android:title="@string/fp_error_vibrate_title"
+            android:summary="@string/fp_error_vibrate_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
