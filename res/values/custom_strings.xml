@@ -381,4 +381,7 @@
     <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
     <string name="wifi_timeout_summary2">Disabled</string>
 
+    <!-- Color mode -->
+    <string name="color_mode_balance_category">Color balance</string>
+
 </resources>

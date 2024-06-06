@@ -200,6 +200,15 @@ public class ColorModePreferenceFragment extends RadioButtonPickerFragment {
     }
 
     @Override
+    public void updateCandidates() {
+        super.updateCandidates();
+
+        PreferenceScreen screen = getPreferenceScreen();
+        getPreferenceManager().inflateFromResource(screen.getContext(), R.xml.color_mode_settings,
+                screen);
+    }
+
+    @Override
     protected void addStaticPreferences(PreferenceScreen screen) {
         final LayoutPreference preview = new LayoutPreference(screen.getContext(),
                 R.layout.color_mode_preview);
