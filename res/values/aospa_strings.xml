@@ -261,7 +261,7 @@
 
     <!-- Battery light -->
     <string name="battery_light_title">Battery light</string>
-    
+
     <!-- Placeholder -->
     <string name="sim_placeholder_title" translatable="false">SIM</string>
 
@@ -273,4 +273,8 @@
     <string name="back_height_title">Back height</string>
     <string name="back_height_message">Amount of screen height used as a touchable region for back gesture</string>
 
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Display negotiated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    
 </resources>
