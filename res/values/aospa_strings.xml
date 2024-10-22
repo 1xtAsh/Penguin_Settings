@@ -342,4 +342,7 @@
     <string name="app_lock_timeout_10min">10 minutes</string>
     <string name="app_lock_timeout_30min">30 minutes</string>
 
+    <!-- Something maintainer -->
+    <string name="maintainer">Maintainer</string>
+    <string name="something_maintainer" translatable="false">Unofficial Maintainer</string>
 </resources>
